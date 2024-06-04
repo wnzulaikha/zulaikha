@@ -1,0 +1,157 @@
+
+body{
+background-color:#F0E9EE;
+}
+
+
+.topnav {
+  overflow: hidden;
+  background-color: #C656A1 ;
+}
+
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color:  black;
+}
+
+.topnav a.active {
+  background-color: #F15DC7;
+  color: white;
+}
+
+/*text on images*/
+.container {
+        position: relative;
+        width: 100%;
+    }
+
+    .image {
+        width: 100%;
+        height: auto;
+    }
+
+    .text {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+        text-align: center;
+    }
+
+/*slide*/
+    
+
+/*contact me*/
+.container {
+            width: 80%;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .contact-info {
+            background-color: #71B988 ;
+            padding: 20px;
+            border-radius: 20px;
+        }
+
+        .contact-info h2 {
+            margin-top: 0;
+        }
+
+        .contact-info p {
+            margin: 10px 0;
+        }
+
+        .contact-info a {
+            color: #333;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+ /* Style for the contact form */
+        .contact-form {
+            background-color: #71B988;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .contact-form label {
+            font-weight: bold;
+        }
+
+        .contact-form input[type="text"],
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+            box-sizing: border-box;
+        }
+
+        .contact-form input[type="submit"] {
+            background-color: #333;
+            color: #fff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        .contact-form input[type="submit"]:hover {
+            background-color: #555;
+        }
+
+
+
+/* Basic styles for the bottom navigation */
+
+   .bottomnav {
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+            background-color: #333;
+            overflow: hidden;
+            text-align: center; /* Center-align the contents */
+        }
+
+        .bottomnav a {
+            display: inline-block; /* Make the links inline-block for horizontal alignment */
+            color: #f2f2f2;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        .bottomnav a:hover {
+            background-color: #ddd;
+            color: black;
+        }
+	
+	 .bottomnav a.active {
+            background-color: #F361D9; 
+            color: white;
+        }
+
+
+        /* Style for the copyright text */
+        .copyright {
+            color: #999;
+            font-size: 12px;
+            padding: 14px 16px;
+            display: inline-block; /* Make it inline-block for horizontal alignment */
+        }
+
+

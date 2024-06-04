@@ -1,0 +1,113 @@
+<html>
+<head>
+<link rel="stylesheet" href="resource/css/style.css" 
+type="text/css">
+<title> FRIENDS </title>
+
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+</style>
+</head> 
+
+<body>
+<div class="topnav">
+  	
+	<a href="family.html">ABOUT ME</a>
+	<a href="friends.html">MY FRIENDS</a>
+	<a href="education.html">EDUCATION</a>
+	<a href="interest.html">MY INTEREST</a>
+
+
+</div>
+
+<style>
+    .slider-container {
+        width: 100%;
+        overflow: hidden;
+    }
+
+    .slider {
+        display: flex;
+        transition: transform 0.5s ease;
+    }
+
+    .slide img {
+        width: 50%; /* Set the width of images to 100% */
+        height: auto; /* Maintain aspect ratio */
+    }
+
+    .slide .text {
+        position: absolute;
+        top: 50%;
+        right: 20px; /* Adjust right spacing as needed */
+        transform: translateY(-50%);
+        color: #E11A9F ;
+        font-size: 24px;
+        font-weight: bold;
+    }
+</style>
+
+
+<div class="slider-container">
+    <div class="slider">
+        <div class="slide">
+            <img src="resource/image/image9.jpg" alt="Image 1">
+            <div class="text">SCHOOL FRIENDS <br> i met them from standard school until highschool and now everyone go further their study at every state </div>
+        </div>
+        <div class="slide">
+            <img src="resource/image/image10.jpg" alt="Image 2">
+            <div class="text">SCHOOL FRIENDS  <br> i met them from standard school until highschool and now everyone go further their study at every state </div>
+
+        </div>
+        <div class="slide">
+            <img src="resource/image/image11.jpg" alt="Image 3">
+            <div class="text">SCHOOL FRIENDS <br> i met them from standard school until highschool and now everyone go further their study at every state </div>
+
+	<div class="slide">
+          </div>
+    </div>
+</div>
+
+<script>
+    let slideIndex = 0;
+    const slides = document.querySelectorAll('.slide');
+
+    function showSlides() {
+        slides.forEach((slide) => {
+            slide.style.display = 'none';
+        });
+        slideIndex++;
+        if (slideIndex > slides.length) {
+            slideIndex = 1;
+        }
+        slides[slideIndex - 1].style.display = 'block';
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+    }
+
+    showSlides();
+</script>
+
+	
+
+
+   
+   <div class="bottomnav">
+ <a href="index.html" class="active">Home</a>
+    <a href="instagram.html">Instagram</a>
+   <a href="contact.html">Contact</a>
+     <span class="copyright">© 2024 WAN NURZULAIKHA. All rights reserved</span>
+</div>
+
+
+
+
+
+
+
+</body>
+</html>
